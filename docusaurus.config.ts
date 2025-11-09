@@ -5,9 +5,10 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'TwelveFive',
-  tagline: 'For when you need a data pipeline but all you have is a paperclip and an Oracle DB',
-  favicon: 'img/favicon.ico',
+  title: 'TwelveFive Ltd',
+  tagline: 'For when you need a data pipeline but all you\'ve got is a paperclip and an Oracle DB',
+  favicon: 'img/twelvefive_icon_white.png',
+  // favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -23,7 +24,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'data-macgyver', // Usually your GitHub org/user name.
+  organizationName: 'datamacgyver', // Usually your GitHub org/user name.
   projectName: 'TwelveFive', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -76,10 +77,10 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'TwelveFive',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'TwelveFive Logo',
+        src: 'img/Twelvefive_white_vector.svg',
       },
       items: [
         {
@@ -90,7 +91,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/datamacgyver',
           label: 'GitHub',
           position: 'right',
         },
