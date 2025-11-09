@@ -11,32 +11,36 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/strategy.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/chat.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
+    title: 'Data Processing & Management',
     Svg: require('@site/static/img/workflow_nobackground.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        We specialise in data ingestion, standardisation, and hygiene across multiple sources. Our
+          process ensures your data is ready for analysis, driving meaningful insights and reducing
+          the friction between raw data and actionable intelligence.
+      </>
+    ),
+  },
+  {
+    title: 'Analytics, Insights & Knowledge',
+    Svg: require('@site/static/img/chat.svg').default,
+    description: (
+      <>
+        Harness the power of data through advanced analytics, including GenAI-driven
+          insights, predictive modeling, and diagnostic tools. Our solutions help you
+          understand what’s happened, why it happened, and what’s likely to happen
+          next—empowering you to make data-informed decisions.
+      </>
+    ),
+  },
+  {
+    title: 'Strategic Consulting',
+    Svg: require('@site/static/img/strategy.svg').default,
+    description: (
+      <>
+        We align your data strategy with business objectives, ensuring your infrastructure
+          supports both current needs and future growth. From digital transformation to process
+          optimization, we provide the direction and tools to keep you competitive.
       </>
     ),
   },
