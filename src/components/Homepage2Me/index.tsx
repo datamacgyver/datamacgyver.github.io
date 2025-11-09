@@ -5,14 +5,13 @@ import styles from '../styles.module.css';
 
 type FeatureItem = {
   title: string;
-  imagePath: string; // Path to the image file
+  imagePath?: string; // Path to the image file (optional)
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'Why us?',
-    imagePath: require('@site/static/img/workflow_nobackground.svg').default,
     description: (
       <>
           At TwelveFive, we do more than offer data solutions—we provide the expertise and strategic insights needed to
@@ -40,9 +39,11 @@ const FeatureList: FeatureItem[] = [
 function Feature({title, imagePath, description}: FeatureItem) {
   return (
     <div className={clsx('col col--6')}>
-      <div className="text--center">
-        <img src={imagePath} className={styles.featureSvg} alt={title} />
-      </div>
+      {imagePath && (
+        <div className="text--center">
+          <img src={imagePath} className={styles.featureSvg} alt={title} />
+        </div>
+      )}
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
