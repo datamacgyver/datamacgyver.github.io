@@ -25,11 +25,10 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Analytics, Insights & Knowledge',
+    title: 'Rob Mansfield, PhD',
     imagePath: require('@site/static/img/rob_m_bw_square_2025.jpg').default,
     description: (
       <>
-          Rob Mansfield
           18+ years solving data and AI challenges for clients, working at the interface between technology and business value.
       </>
     ),

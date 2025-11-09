@@ -49,9 +49,9 @@ function Feature({title, Svg, description}: FeatureItem) {
   );
 }
 
-export default function HomepageFourContact(): ReactNode {
+export default function Homepage3Services(): ReactNode {
   return (
-    <section className={styles.featuresTwo}>
+    <section className={styles.featuresOne}>
       <div className="container">
         <div className="row">
           {FeatureList.map((props, idx) => (

@@ -49,7 +49,7 @@ function Feature({title, Svg, description}: FeatureItem) {
   );
 }
 
-export default function HomepageTwoMe(): ReactNode {
+export default function Homepage4Contact(): ReactNode {
   return (
     <section className={styles.featuresTwo}>
       <div className="container">
