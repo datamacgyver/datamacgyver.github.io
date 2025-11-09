@@ -11,25 +11,38 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Why us?',
+    title: 'Service 1',
+    imagePath: '/img/path-to-image1.svg',
     description: (
       <>
-          At TwelveFive, we do more than offer data solutions - we provide the expertise and strategic insights needed to
-          help businesses overcome growth barriers and unlock new opportunities. With deep experience in data strategy,
-          advanced analytics, and personalized consulting, we turn complex challenges into actionable strategies.
-
-          Our approach is rooted in a pragmatic, hands-on methodology, guiding clients from reactive decision-making
-          to proactive growth. Partnering with TwelveFive means gaining a dedicated team committed to your long-term
-          success, equipped with the tools, insights, and support to help you thrive in a competitive landscape.
+          Description for Service 1
       </>
     ),
   },
   {
-    title: 'Rob Mansfield, PhD',
-    imagePath: require('@site/static/img/rob_m_bw_square_2025.jpg').default,
+    title: 'Service 2',
+    imagePath: '/img/path-to-image2.svg',
     description: (
       <>
-          18+ years solving data and AI challenges for clients, working at the interface between technology and business value.
+          Description for Service 2
+      </>
+    ),
+  },
+  {
+    title: 'Service 3',
+    imagePath: '/img/path-to-image3.svg',
+    description: (
+      <>
+          Description for Service 3
+      </>
+    ),
+  },
+  {
+    title: 'Service 4',
+    imagePath: '/img/path-to-image4.svg',
+    description: (
+      <>
+          Description for Service 4
       </>
     ),
   }
@@ -38,14 +51,20 @@ const FeatureList: FeatureItem[] = [
 function Feature({title, imagePath, description}: FeatureItem) {
   return (
     <div className={clsx('col col--6')}>
-      {imagePath && (
-        <div className="text--center">
-          <img src={imagePath} className={styles.featureSvg} alt={title} />
+      <div className="row">
+        <div className="col col--4">
+          {imagePath && (
+            <div className="text--center">
+              <img src={imagePath} className={styles.featureSvg} alt={title} />
+            </div>
+          )}
         </div>
-      )}
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+        <div className="col col--8">
+          <div className="padding-horiz--md">
+            <Heading as="h3">{title}</Heading>
+            <p>{description}</p>
+          </div>
+        </div>
       </div>
     </div>
   );
