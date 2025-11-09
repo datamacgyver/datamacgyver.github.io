@@ -5,14 +5,14 @@ import styles from '../styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Image: React.ComponentType<any>; // Accepts any component type
+  imagePath: string; // Path to the image file
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'Why us?',
-    Image: require('@site/static/img/workflow_nobackground.svg').default,
+    imagePath: require('@site/static/img/workflow_nobackground.svg').default,
     description: (
       <>
           At TwelveFive, we do more than offer data solutions—we provide the expertise and strategic insights needed to
@@ -27,7 +27,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Analytics, Insights & Knowledge',
-    Image: require('@site/static/img/rob_m_bw_square_2025.jpg').default,
+    imagePath: require('@site/static/img/rob_m_bw_square_2025.jpg').default,
     description: (
       <>
           Rob Mansfield
@@ -39,11 +39,11 @@ const FeatureList: FeatureItem[] = [
   }
 ];
 
-function Feature({title, Image, description}: FeatureItem) {
+function Feature({title, imagePath, description}: FeatureItem) {
   return (
     <div className={clsx('col col--6')}>
       <div className="text--center">
-        <Image className={styles.featureSvg} role="img" />
+        <img src={imagePath} className={styles.featureSvg} alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
