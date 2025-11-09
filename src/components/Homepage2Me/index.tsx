@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
     title: 'Why us?',
     description: (
       <>
-          At TwelveFive, we do more than offer data solutions—we provide the expertise and strategic insights needed to
+          At TwelveFive, we do more than offer data solutions - we provide the expertise and strategic insights needed to
           help businesses overcome growth barriers and unlock new opportunities. With deep experience in data strategy,
           advanced analytics, and personalized consulting, we turn complex challenges into actionable strategies.
 
