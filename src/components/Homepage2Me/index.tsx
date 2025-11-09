@@ -32,8 +32,6 @@ const FeatureList: FeatureItem[] = [
       <>
           Rob Mansfield
           18+ years solving data and AI challenges for clients, working at the interface between technology and business value.
-
-
       </>
     ),
   }
