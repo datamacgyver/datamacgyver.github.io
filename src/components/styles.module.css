@@ -1,0 +1,22 @@
+.featuresOne {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featuresTwo {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  width: 100%;
+  background-color: #f5f6f7; /* Different background colour */
+}
+
+.featureSvg {
+  height: 200px; /* Keep your desired height */
+  width: auto; /* Allow width to adjust based on aspect ratio */
+  max-width: 100%; /* Ensure it doesn't overflow its container */
+}
+
+

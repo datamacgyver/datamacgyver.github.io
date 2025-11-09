@@ -3,11 +3,13 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import HomepageSecondSection from '@site/src/components/HomepageSecondSection';
+import HomepageOneFeatures from '@site/src/components/HomepageOneFeatures';
+import HomepageTwoMe from '@site/src/components/HomepageTwoMe';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
+import HomepageThreeServices from "@site/src/components/HomepageThreeServices";
+import HomepageFourContact from "@site/src/components/HomepageFourContact";
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -35,11 +37,13 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="TwelveFive UK Ltd<head />">
+      description="TwelveFive<head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
-        <HomepageSecondSection />
+        <HomepageOneFeatures />
+        <HomepageTwoMe/>
+        <HomepageThreeServices/>
+        <HomepageFourContact/>
       </main>
     </Layout>
   );

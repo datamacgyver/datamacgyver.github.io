@@ -1,7 +1,7 @@
 import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
-import styles from './styles.module.css';
+import styles from '../styles.module.css';
 
 type FeatureItem = {
   title: string;
@@ -60,9 +60,9 @@ function Feature({title, Svg, description}: FeatureItem) {
   );
 }
 
-export default function HomepageFeatures(): ReactNode {
+export default function HomepageOneFeatures(): ReactNode {
   return (
-    <section className={styles.features}>
+    <section className={styles.featuresOne}>
       <div className="container">
         <div className="row">
           {FeatureList.map((props, idx) => (
