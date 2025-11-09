@@ -10,3 +10,11 @@
   width: auto; /* Allow width to adjust based on aspect ratio */
   max-width: 100%; /* Ensure it doesn't overflow its container */
 }
+
+.secondSection {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  width: 100%;
+  background-color: #f5f6f7; /* Different background colour */
+}
