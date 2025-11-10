@@ -11,72 +11,76 @@ type FeatureItem = {
 
 const GenAI = {
     title: 'Generative AI Enablement',
-    imagePath: '/img/path-to-image1.svg',
+    imagePath: '/img/artificial-intelligence.png',
     description: (
-        <> You may have heard there's some new technology out and that it's going to change the
-           world. Well, there is - and it is - but you can't just turn it on, as you may well
-           have already found out! If you need a hand with Implementation, Governance, Strategy
-           or Product Alignment we can help!
+        <> Generative AI is transforming how organisations build products, deliver services,
+      and make decisions. But successful adoption takes more than turning on a new tool.
+      We help teams plan and implement AI effectively - from strategy and governance
+      through to implementation and product alignment - ensuring solutions that are ethical,
+      practical, and deliver measurable value.
         </>
     ),
   }
 
 const rubberDuck = {
     title: 'Professional Rubber Duck',
-    imagePath: '/img/path-to-image1.svg',
+    imagePath: '/img/rubber-duck.png',
     description: (
-      <> Sometimes you know it's broken but you aren't sure why, sometimes you think you know
-          what you want to do but need someone who's been there and done that to help clarify
-          your plans. That someone is probably us!
+      <>       Sometimes you just need a second pair of eyes. Whether you’re troubleshooting a stubborn
+      problem, refining a design, or sense something isn’t quite right, we’ll help you think
+      it through. Acting as your professional “rubber duck,” we provide experienced,
+      pragmatic feedback to turn uncertainty into clear next steps.
       </>
     ),
   }
 
 const strategy = {
     title: 'Data Strategy Curation',
-    imagePath: '/img/path-to-image1.svg',
+    imagePath: '/img/data-strategy.png',
     description: (
       <>
-          Many companies don't have a data strategy, many more have one that no one reads or
-          worse, one that's independent of their business and product strategy. We are able to do
-          a full review of where you are, and what you need to get to where you are going.
+      Many organisations either lack a clear data strategy or have one that’s disconnected
+      from their business and product goals. We help you define and align a strategy that
+      drives measurable outcomes - assessing your current capabilities, identifying gaps,
+      and creating a roadmap that turns data into a true enabler of growth.
       </>
     ),
   }
 
 const arch = {
     title: 'Architecture & Technical Planning',
-    imagePath: '/img/path-to-image2.svg',
+    imagePath: '/img/architecture.png',
     description: (
-      <>Data & AI technology moves apace, today there's more snakeoil out there than useful
-          tech and attaching it all together can feel ferociously complicated. We can help
-          you navigate this quagmire, whether you are after a brown- or green-field
-          implementation.
+      <>      The Data and AI landscape changes fast, and connecting the right technologies in a
+      secure, scalable way can be challenging. We help you design architectures that balance
+      innovation with practicality — whether you’re building from scratch or modernising
+      existing systems — ensuring your foundations are built for performance, governance,
+      and growth.
       </>
     ),
   }
 
 const modelling = {
     title: 'Data Modelling & Integration',
-    imagePath: '/img/path-to-image3.svg',
+    imagePath: '/img/modelling.png',
     description: (
-      <>
-          Do we use Kimball or Data Vault? Is a medallion architecture suitable for our
-          business? Why is it that our analysts can never find what they need? Who manages
-          all these data anyway? If these are questions you recognise then we can help!
+      <>  Building effective data models and reliable integrations is about more than choosing
+      between Kimball or Data Vault, then building a medallion architecture. We help you design and
+      implement data structures that are consistent, discoverable, and aligned with your
+      business goals - ensuring your teams can trust and use the data they depend on.
       </>
     ),
   }
 
 const dataSci = {
     title: 'Date Science & Insights',
-    imagePath: '/img/path-to-image4.svg',
+    imagePath: '/img/data-science.png',
     description: (
       <>
-          Once the sexiest job of the 21st Century, before AI became the hot kid on the block.
-          Data Science is still vital, as are dashboards and alerts. Implementing these
-          properly can be complicated if you approach them as a "normal" software
-          engineering. We can help you get tangible results aligned to real value.
+          Data science remains essential for turning information into impact. We help you design
+      and implement models, dashboards, and alerting systems that deliver actionable insight,
+      not just numbers. Our approach blends statistical rigour with practical engineering to
+      ensure results that align with real business value.
       </>
     ),
   }
