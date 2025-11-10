@@ -20,4 +20,21 @@
     max-width: 100%; /* Ensure it doesn't overflow its container */
 }
 
+.contactLinks {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.contactLinks a {
+  background-color: #a2a2a3;
+  color: white;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.contactLinks a:hover {
+  background-color: #b6b6b6;
+}
 
