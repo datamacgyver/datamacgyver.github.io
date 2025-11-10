@@ -11,6 +11,8 @@
   background-image: url('/img/background.webp');
   background-size: cover;
   background-position: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 @media screen and (max-width: 996px) {
