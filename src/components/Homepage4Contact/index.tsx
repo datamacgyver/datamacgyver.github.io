@@ -3,9 +3,9 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from '../styles.module.css';
 
-export default function Homepage4Contact(): ReactNode {
+export default function Homepage4Contact({ id }: { id?: string }): ReactNode {
   return (
-    <section className={styles.featuresTwo}>
+    <section id={id} className={styles.featuresTwo}>
       <div className="container">
         <div className="row">
           <div className="col col--12 text--center">
