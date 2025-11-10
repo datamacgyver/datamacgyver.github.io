@@ -109,9 +109,9 @@ function Feature({title, imagePath, description}: FeatureItem) {
   );
 }
 
-export default function Homepage3Services(): ReactNode {
+export default function Homepage3Services({ id }: { id?: string }): ReactNode {
   return (
-    <section className={styles.featuresOne}>
+    <section id={id} className={styles.featuresOne}>
       <div className="container">
         <div className="row">
           {FeatureList.map((props, idx) => (

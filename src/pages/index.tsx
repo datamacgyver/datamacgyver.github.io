@@ -23,6 +23,12 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
+            to="#services-section"
+            style={{marginRight: '10px'}}>
+            Our Services
+          </Link>
+          <Link
+            className="button button--secondary button--lg"
             to="#contact-section">
             Contact Us
           </Link>
@@ -42,7 +48,7 @@ export default function Home(): ReactNode {
       <main>
         <Homepage1Expertise />
         <Homepage2Me/>
-        <Homepage3Services/>
+        <Homepage3Services id="services-section"/>
         <Homepage4Contact id="contact-section"/>
       </main>
     </Layout>
