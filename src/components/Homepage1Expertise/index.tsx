@@ -63,6 +63,7 @@ function Feature({title, Svg, description}: FeatureItem) {
 export default function Homepage1Expertise(): ReactNode {
   return (
     <section className={styles.featuresOne}>
+      <Heading as="h2">Experience</Heading>
       <div className="container">
         <div className="row">
           {FeatureList.map((props, idx) => (
