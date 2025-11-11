@@ -65,7 +65,7 @@ export default function Homepage1Expertise(): ReactNode {
     <section className={styles.featuresOne}>
       <div className="container">
         <div className="text--center margin-bottom--lg">
-          <Heading as="h2">Experience</Heading>
+          <Heading as="h1">Expertise</Heading>
         </div>
         <div className="row">
           {FeatureList.map((props, idx) => (

@@ -113,6 +113,9 @@ export default function Homepage3Services({ id }: { id?: string }): ReactNode {
   return (
     <section id={id} className={styles.featuresOne}>
       <div className="container">
+        <div className="text--center margin-bottom--lg">
+          <Heading as="h1">Our Services</Heading>
+        </div>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />

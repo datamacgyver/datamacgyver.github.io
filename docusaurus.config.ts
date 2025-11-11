@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'TwelveFive Ltd',
+  title: 'TwelveFive UK Ltd',
   tagline: 'For when you need a data pipeline but all you\'ve got is a paperclip and an Oracle DB',
   favicon: 'img/twelvefive_icon_white.png',
   // favicon: 'img/favicon.ico',
