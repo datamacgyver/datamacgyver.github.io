@@ -53,8 +53,8 @@ const arch = {
     description: (
       <>      The Data and AI landscape changes fast, and connecting the right technologies in a
       secure, scalable way can be challenging. We help you design architectures that balance
-      innovation with practicality — whether you’re building from scratch or modernising
-      existing systems — ensuring your foundations are built for performance, governance,
+      innovation with practicality - whether you’re building from scratch or modernising
+      existing systems - ensuring your foundations are built for performance, governance,
       and growth.
       </>
     ),
@@ -113,6 +113,9 @@ export default function Homepage3Services({ id }: { id?: string }): ReactNode {
   return (
     <section id={id} className={styles.featuresOne}>
       <div className="container">
+        <div className="text--center margin-bottom--lg">
+          <Heading as="h1">Our Services</Heading>
+        </div>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />

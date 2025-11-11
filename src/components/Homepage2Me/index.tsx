@@ -44,7 +44,7 @@ function Feature({title, imagePath, description}: FeatureItem) {
         </div>
       )}
       <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
+        <Heading as="h2">{title}</Heading>
         <p>{description}</p>
       </div>
     </div>

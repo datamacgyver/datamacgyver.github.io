@@ -40,7 +40,7 @@ const FeatureList: FeatureItem[] = [
       <>
         We align your data strategy with business objectives, ensuring your infrastructure
           supports both current needs and future growth. From digital transformation to process
-          optimization, we provide the direction and tools to keep you competitive.
+          optimisation, we provide the direction and tools to keep you competitive.
       </>
     ),
   },
@@ -64,6 +64,9 @@ export default function Homepage1Expertise(): ReactNode {
   return (
     <section className={styles.featuresOne}>
       <div className="container">
+        <div className="text--center margin-bottom--lg">
+          <Heading as="h1">Expertise</Heading>
+        </div>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
