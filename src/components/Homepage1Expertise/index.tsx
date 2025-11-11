@@ -40,7 +40,7 @@ const FeatureList: FeatureItem[] = [
       <>
         We align your data strategy with business objectives, ensuring your infrastructure
           supports both current needs and future growth. From digital transformation to process
-          optimization, we provide the direction and tools to keep you competitive.
+          optimisation, we provide the direction and tools to keep you competitive.
       </>
     ),
   },
