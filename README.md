@@ -16,3 +16,10 @@ Simples!
 ## Deployment
 
 Just merge to master!
+
+
+## Extra packages
+
+I've installed the sitemap plugin to do some SEO magic.
+
+`npm install --save @docusaurus/plugin-sitemap`
