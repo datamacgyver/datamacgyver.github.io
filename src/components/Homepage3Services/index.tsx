@@ -115,6 +115,8 @@ export default function Homepage3Services({ id }: { id?: string }): ReactNode {
       <div className="container">
         <div className="text--center margin-bottom--lg">
           <Heading as="h1">Our Services</Heading>
+          <b>This is just an example of our services. I'm always happy to chat through your issues or even run a workshop
+          so we can work out exactly how we can help you. Just drop me a message!</b>
         </div>
         <div className="row">
           {FeatureList.map((props, idx) => (

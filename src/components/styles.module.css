@@ -20,6 +20,26 @@
     max-width: 100%; /* Ensure it doesn't overflow its container */
 }
 
+.circleImage {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.imageContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.linkedinIcon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  border-radius: 50%;
+  padding: 3px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 .contactLinks {
   display: flex;
   justify-content: center;

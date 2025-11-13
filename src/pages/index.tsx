@@ -3,13 +3,14 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import Homepage1Expertise from '@site/src/components/Homepage1Expertise';
-import Homepage2Me from '@site/src/components/Homepage2Me';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
+
 import Homepage3Services from "@site/src/components/Homepage3Services";
 import Homepage4Contact from "@site/src/components/Homepage4Contact";
+import Homepage1Expertise from '@site/src/components/Homepage1Expertise';
+import Homepage2Me from '@site/src/components/Homepage2Me';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -26,6 +27,12 @@ function HomepageHeader() {
             to="#services-section"
             style={{marginRight: '10px'}}>
             Our Services
+          </Link>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/category/case-studies"
+            style={{marginRight: '10px'}}>
+            Case Studies
           </Link>
           <Link
             className="button button--secondary button--lg"
