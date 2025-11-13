@@ -18,7 +18,7 @@
 }
 
 /* Invert SVG images in section 1 (Expertise) only in light mode */
-html[data-theme='light'] .featuresOne [class*="featureSvg"] {
+html[data-theme='light'] .expertise-svg {
   filter: invert(1);
 }
 
@@ -35,6 +35,6 @@ html[data-theme='light'] .featuresOne [class*="featureSvg"] {
 }
 
 /* Ensure SVGs in section 1 (Expertise) are not inverted in dark mode */
-html[data-theme='dark'] .featuresOne [class*="featureSvg"] {
+html[data-theme='dark'] .expertise-svg {
   filter: none;
 }
