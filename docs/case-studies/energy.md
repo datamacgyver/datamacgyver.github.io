@@ -4,7 +4,8 @@ description: Designing a unified data platform and forecasting solution for a ma
 tags: [data architecture, forecasting, energy, snowflake, dbt, sagemaker]
 date: 2025-11-12
 author: Rob Mansfield
-sidebar_position: 1
+sidebar_position: 5
+draft: false
 ---
 
 ## TL;DR

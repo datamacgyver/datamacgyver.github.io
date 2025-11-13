@@ -4,7 +4,8 @@ description: How I led the design and implementation of a new Snowflake data pla
 tags: [data engineering, great expectations, snowflake, dbt, azure, terraform, data quality, genai, portfolio]
 date: 2025-11-13
 author: Rob Mansfield
-sidebar_position: 1
+sidebar_position: 2
+draft: false
 ---
 
 ## TL;DR

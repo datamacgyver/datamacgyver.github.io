@@ -4,7 +4,8 @@ description: Led a two-year data architecture and data science programme integra
 tags: [agriculture, data-architecture, aws, sagemaker, spark, s2, fmis, analytics, data-modelling, geospatial]
 date: 2025-11-11
 author: Rob Mansfield
-sidebar_position: 1
+sidebar_position: 4
+draft: false
 ---
 
 

@@ -5,6 +5,7 @@ tags: [data architecture, delivery leadership, elasticsearch, snowflake, aws, te
 date: 2025-11-12
 author: Rob Mansfield
 sidebar_position: 1
+draft: false
 ---
 
 ## TL;DR
