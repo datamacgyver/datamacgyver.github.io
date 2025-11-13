@@ -5,7 +5,7 @@ tags: [data architecture, forecasting, energy, snowflake, dbt, sagemaker]
 date: 2025-11-12
 author: Rob Mansfield
 sidebar_position: 5
-draft: false
+draft: true
 ---
 
 ## TL;DR

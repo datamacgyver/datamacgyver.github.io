@@ -40,7 +40,7 @@ My focus was to connect the organisation’s data assets to its core value drive
 
 The first step was to engage stakeholders across sales, finance, and operations to define what “trusted data” meant in their context. From there, I built a comprehensive data model that reflected the organisation’s Order-to-Cash process end-to-end.
 
-Technically, I migrated the entire analytics stack from HPCC to AWS, using:
+Technically, I implemented the data architecture using the following technologies:
 
 - **Spark on EMR** for data processing  
 - **AWS Glue** for data integration and orchestration  

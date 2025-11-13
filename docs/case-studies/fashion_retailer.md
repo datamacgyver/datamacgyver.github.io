@@ -10,13 +10,13 @@ draft: false
 
 ## TL;DR
 
-I led the architecture and delivery of a new Snowflake-based data platform for a major UK fashion retailer. The solution used **dbt**, **Great Expectations**, and **Azure DevOps** to automate data quality and improve governance. By introducing **AI-assisted code generation** and embedding validation at ingest and egress, we reduced downtime, improved data accuracy, and cut analytics turnaround time from a day to just hours.
+I led the architecture and delivery of a new Snowflake-based data platform for a major UK fashion retailer. The solution used **dbt**, **Great Expectations**, and **Azure DevOps** to automate data quality and improve governance. By introducing **AI-assisted code generation** (back in 2023!) and embedding validation at ingest and egress, we reduced downtime, improved data accuracy, and cut analytics turnaround time from a day to just hours.
 
 ---
 
 ## Case Study
 
-When I joined this project in 2022, the client was migrating from an ageing SQL Server system to a new, centralised data estate on **Snowflake**. The aim was to consolidate disparate systems into a single, governed, and documented data source, reducing duplication and enabling faster, more reliable analytics.
+When I joined this project, the client was migrating from an ageing SQL Server system to a new, centralised data estate on **Snowflake**. The aim was to consolidate disparate systems into a single, governed, and documented data source, reducing duplication and enabling faster, more reliable analytics.
 
 ### My Role
 
