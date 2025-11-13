@@ -18,7 +18,7 @@
 }
 
 /* Invert SVG images in light mode */
-html[data-theme='light'] .featureSvg {
+html[data-theme='light'] [class*="featureSvg"] {
   filter: invert(1);
 }
 
@@ -35,6 +35,6 @@ html[data-theme='light'] .featureSvg {
 }
 
 /* Ensure SVGs are not inverted in dark mode */
-html[data-theme='dark'] .featureSvg {
+html[data-theme='dark'] [class*="featureSvg"] {
   filter: none;
 }
