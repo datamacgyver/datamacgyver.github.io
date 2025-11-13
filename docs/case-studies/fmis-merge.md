@@ -1,7 +1,7 @@
 ---
-title: FMIS Data Integration and Analytics for a US Agricultural Retailer
+title: Data Integration for AgRetail
 description: Led a two-year data architecture and data science programme integrating multiple FMIS platforms, implementing S2-based geospatial harmonisation, and delivering a unified analytics and data science platform for a major US agricultural retailer.
-tags: [agriculture, data-architecture, aws, sagemaker, spark, s2, fmis, analytics, data-modelling, geospatial]
+tags: [agriculture, data architecture, aws, sagemaker, spark, s2, global grid, fmis, analytics, data modelling, geospatial]
 date: 2025-11-11
 author: Rob Mansfield
 sidebar_position: 4

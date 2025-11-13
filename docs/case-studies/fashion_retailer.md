@@ -1,7 +1,7 @@
 ---
-title: Great Expectations Implementation for a Major UK Fashion Retailer
+title: Data Replatform for a Fashion Retailer
 description: How I led the design and implementation of a new Snowflake data platform with dbt, Great Expectations, and Azure DevOps to improve data quality, accelerate analytics, and foster a culture of data ownership.
-tags: [data engineering, great expectations, snowflake, dbt, azure, terraform, data quality, genai, portfolio]
+tags: [data engineering, greatexpectations, snowflake, dbt, azure, terraform, data quality, gen ai]
 date: 2025-11-13
 author: Rob Mansfield
 sidebar_position: 2

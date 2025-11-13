@@ -30,7 +30,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="/case-studies"
+            to="/docs/category/case-studies"
             style={{marginRight: '10px'}}>
             Case Studies
           </Link>

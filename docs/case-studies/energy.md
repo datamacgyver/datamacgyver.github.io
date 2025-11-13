@@ -1,5 +1,5 @@
 ---
-title: Demand Forecasting in Retail Energy
+title: Demand Forecasting in Energy
 description: Designing a unified data platform and forecasting solution for a major UK energy retailer
 tags: [data architecture, forecasting, energy, snowflake, dbt, sagemaker]
 date: 2025-11-12

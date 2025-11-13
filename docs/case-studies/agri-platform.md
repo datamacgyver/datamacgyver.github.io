@@ -1,7 +1,7 @@
 ---
-title: "Transforming Order-to-Cash Analytics for a Leading US Ag Retailer"
+title: "Transforming Analytics in Agriculture"
 description: "How I designed and delivered a cloud-based data architecture on AWS to unify ERP data, optimise $10M in rebates, and enable data-driven decision-making for a top-ten US agricultural retailer."
-tags: ["Data Architecture", "AWS", "Spark", "Data Engineering", "Agriculture", "Analytics", "Case Study"]
+tags: ["Data Architecture", "AWS", "Spark", "Data Engineering", "Agriculture", "Analytics"]
 date: 2025-11-11
 author: Rob Mansfield
 sidebar_position: 3
