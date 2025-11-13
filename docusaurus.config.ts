@@ -66,11 +66,6 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
-      } satisfies Preset.Options,
-    ],
-    [
-      '@docusaurus/preset-classic',
-      {
         sitemap: {
           lastmod: 'date',
           changefreq: 'weekly',
@@ -83,7 +78,7 @@ const config: Config = {
             return items.filter((item) => !item.url.includes('/page/'));
           },
         },
-      },
+      } satisfies Preset.Options,
     ],
   ],
 
