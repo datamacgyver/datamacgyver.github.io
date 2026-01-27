@@ -5,6 +5,7 @@ tags: ["Data Architecture", "AWS", "Spark", "Data Engineering", "Agriculture", "
 date: 2025-11-11
 author: Rob Mansfield
 sidebar_position: 3
+draft: false
 ---
 
 # Transforming Order-to-Cash Analytics for a Leading US Ag Retailer
