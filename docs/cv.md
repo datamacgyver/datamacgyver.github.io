@@ -73,7 +73,7 @@ draft: false
 - Created a new external revenue stream by productising the platform's flexible dashboards and APIs.  
 
 ## Links  
-| Github                                             | LinkedIn                                                   | More Info                            |
-|----------------------------------------------------|------------------------------------------------------------|--------------------------------------| 
-| [github.com/datamacgyver](Github.com/datamacgyver) | [linkedin.com/in/rpmansfield](linkedin.com/in/rpmansfield) | [TwelveFive.co.uk](Twelvefive.co.uk) |
+| Github                                                 | LinkedIn                                                       | More Info                                |
+|--------------------------------------------------------|----------------------------------------------------------------|------------------------------------------| 
+| [github.com/datamacgyver](www.github.com/datamacgyver) | [linkedin.com/in/rpmansfield](www.linkedin.com/in/rpmansfield) | [TwelveFive.co.uk](www.Twelvefive.co.uk) |
 
