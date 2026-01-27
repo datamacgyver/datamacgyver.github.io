@@ -5,7 +5,7 @@ tags: [data architecture, forecasting, energy, snowflake, dbt, sagemaker]
 date: 2025-11-12
 author: Rob Mansfield
 sidebar_position: 5
-draft: true
+draft: false
 ---
 
 ## TL;DR
@@ -15,7 +15,10 @@ I led the design and delivery of a new data and forecasting architecture for a m
 
 ## Demand Forecasting in Retail Energy
 
-The client, a major UK energy retailer, needed a more reliable and transparent data platform to support their retail energy forecasting. Their existing setup was fragmented across multiple data sources, undocumented, and heavily reliant on manual workflows. These challenges were slowing forecasting, complicating governance, and increasing operational risk.
+The client, a major UK energy retailer, needed a more reliable and transparent data platform to support their retail energy forecasting. Their existing setup was fragmented across multiple data sources, undocumented, and heavily reliant on manual workflows. There also existed a new regulatory environment with the advent of MHHS (Market half-hourly settlements) which required a whole new ingest pathway and predictive approach. MHHS added the additional complexity of submitting the system for regulatory approval the energy regulator. 
+
+
+These challenges were slowing forecasting, complicating governance, and increasing operational risk.
 
 ### My Role
 I acted as strategic lead and data architect, responsible for designing the end-to-end architecture and aligning all technical and business stakeholders. This included defining the approach, choosing tools, and ensuring each part of the organisation understood and supported the plan. I stayed close to delivery teams, making sure design intent translated into working, maintainable systems.
