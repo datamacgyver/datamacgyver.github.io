@@ -75,5 +75,5 @@ draft: false
 ## Links  
 | Github                                                 | LinkedIn                                                       | More Info                                |
 |--------------------------------------------------------|----------------------------------------------------------------|------------------------------------------| 
-| [github.com/datamacgyver](www.github.com/datamacgyver) | [linkedin.com/in/rpmansfield](www.linkedin.com/in/rpmansfield) | [TwelveFive.co.uk](www.Twelvefive.co.uk) |
+| [github.com/datamacgyver](https://www.github.com/datamacgyver) | [linkedin.com/in/rpmansfield](https://www.linkedin.com/in/rpmansfield) | [TwelveFive.co.uk](https://www.Twelvefive.co.uk) |
 
