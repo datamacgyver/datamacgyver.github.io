@@ -14,6 +14,12 @@ draft: false
 
 > I’ve spent the last year working independently to help businesses adapt their technology to the world of data and AI, working primarily in the IoT and Precision Agriculture space. Prior to this, I worked as Head of Data for Accenture Next Gen Engineering, developing our capability both internally and externally. I specialise in developing teams and architectures that deliver value early and often. While more than happy to delegate, I like to lead from the front, running discoveries, deliveries, technical teams, and even product ideation as required. 
 
+## Key Proficiencies
+
+**Delivery:** People Leadership | Stakeholder Mgmt | Governance | Data Strategy | Delivery Mgmt   
+**Platform:** AWS | Snowflake | Databricks | Azure | dbt | GreatExpectations   
+**Delivery:** Architecture | Python | R | PowerBI | Scala | Java
+
 ## Accenture Next Gen | Head of Data & AI | Jun 2021 to Jan 2025  
 
 ### Responsibilities  
@@ -27,14 +33,7 @@ draft: false
 - Led the strategic review of a failing data programme at a [large, publicly owned energy operator](./case-studies/agile-review.md). My recommendations led to a root-and-branch rebuild" of their Agile capability, restoring delivery confidence.  
 - Rescued a failing data initiative for a [specialist insurer](./case-studies/insurance.md) by rebuilding team morale and restoring delivery. Moved the platform from failing to stable, delivering a 10x reduction in analyst time.  
 - Delivered a modern data platform (Snowflake/dbt) for a [major fashion retailer](./case-studies/fashion_retailer.md), cutting analytics production time to hours and improving data quality with automated validation.  
-
-## Key Proficiencies
-
-**Delivery:** People Leadership | Stakeholder Mgmt | Governance | Data Strategy | Delivery Mgmt   
-**Platform:** AWS | Snowflake | Databricks | Azure | dbt | GreatExpectations   
-**Delivery:** Architecture | Python | R | PowerBI | Scala | Java   
-
-
+  
 ## Data Strategy Specialist | Enablis | Nov 2025 to Present  
 
 ### Responsibilities  
