@@ -24,9 +24,15 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
+            to="/docs/cv"
+            style={{marginRight: '10px'}}>
+            Rob's CV
+          </Link>
+          <Link
+            className="button button--secondary button--lg"
             to="#services-section"
             style={{marginRight: '10px'}}>
-            Our Services
+            Services
           </Link>
           <Link
             className="button button--secondary button--lg"
@@ -37,7 +43,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="#contact-section">
-            Contact Us
+            Contact
           </Link>
         </div>
       </div>
